@@ -2,11 +2,11 @@
 
 let firstName = 'John';
 let lastName = 'Smith';
-const age = 15;
+const age = 20;
 const driving_age = 16;
 
 // string interpolation
-msg = `${firstName} ${lastName} can drive, he/she has been driving for ${age - driving_age} years`;
+let msg = `${firstName} ${lastName} can drive, he/she has been driving for ${age - driving_age} years`;
 
 if (age > driving_age) {
     console.log(msg);
